@@ -22,6 +22,7 @@ body {
 /* Titres */
 h1, h2, h3, h4, h5{
     color: #FF722C !important;
+    font-weight: bold;
 }
 
 /* Marges */
@@ -69,4 +70,22 @@ h1, h2, h3, h4, h5{
 /* lien */
 a{
     text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Style du bouton - Pages */
+.article a {
+    text-align: -webkit-center;
+}
+.article a button {
+    width: 200px;
 }
