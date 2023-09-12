@@ -50,6 +50,15 @@ h1, h2, h3, h4, h5{
     border-radius: 0%;
     background-color: #697A74;
 }
+
+.card-title {
+    color: #FF722C !important;
+}
+
+.card-text {
+    text-align: justify;
+}
+
 .btn{
     border-radius: 0%;
     background-color: #FF722C;

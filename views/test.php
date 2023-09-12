@@ -12,11 +12,11 @@ foreach ($rss->channel->item as $item){
     $datetime = date_create($item->pubDate);
     $date = date_format($datetime, 'd M Y, H\hi');
     echo 
-    '<div class="card mt-3>
-        <h5 class="card-title">'.$titleItem.'</h5>
+    '<div class="card mt-3">
+        <h5 class="card-title mb-3">'.$titleItem.'</h5>
         <img class="col-6" src="'.$imgItem.'" alt="'.$imgItem.'" />
         <div class="card-body">
-            <p>'.$descriptionItem.'</p>
+            <p class="card-text">'.$descriptionItem.'</p>
             <a href="'.$item->link.'">'.mb_convert_encoding($item->title,'UTF-8').'</a> ('.$date.')
         </div>
     </div>';
