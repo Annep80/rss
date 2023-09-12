@@ -20,8 +20,8 @@ body {
 }
 
 /* Titres */
-h1, h2, h3 {
-    color: #FF722C;
+h1, h2, h3, h4, h5{
+    color: #FF722C !important;
 }
 
 /* Marges */
@@ -35,7 +35,6 @@ h1, h2, h3 {
 .preferenceForm {
     margin-top: 70px;
 }
-
 /* Justification du texte des articles - Page Articles */
 .article p {
     text-align: justify;
@@ -45,3 +44,26 @@ h1, h2, h3 {
 .articleText {
     margin-top: 30px;
 }
+/* Cards */
+.card{
+    border-radius: 0%;
+    background-color: #697A74;
+}
+.btn{
+    border-radius: 0%;
+    background-color: #FF722C;
+    border-color:#FF722C ;
+    color:#2E3532;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.button{
+    display: flex;
+    justify-content: end;
+}
+
+.thirdSubject, .secondSubject, .firstSubject{
+    margin-top: 2rem;
+}
+
