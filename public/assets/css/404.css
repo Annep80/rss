@@ -1,0 +1,52 @@
+/* BODY */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* MODIFICATION DE LA DISPOSITION DES ELEMENTS */
+.page_404 {
+  padding: 40px 0;
+  background: #fff;
+  text-align: -webkit-center;
+}
+
+.page_404 img {
+  width: 100%;
+}
+/* AJOUT DE L'IMAGE DE FOND */
+.four_zero_four_bg {
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+/* COULEUR DES TITRES */
+.four_zero_four_bg h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #FF722C;
+}
+
+ h3 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #FF722C;
+}
+/* STYLE DU BOUTON */
+.link_404 {
+  color: #fff !important;
+  padding: 10px 20px;
+  background: #2E3532;
+  margin: 20px 0;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.contant_box_404 {
+  margin-top: 10px;
+}
+
+.contant_box_404 a {
+    text-decoration: none;
+}
