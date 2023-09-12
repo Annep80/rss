@@ -1,0 +1,22 @@
+/* Body */
+body {
+    background-color: #2E3532;
+    color: #DCE2E0;
+}
+
+/* Titres */
+h1, h2, h3 {
+    color: #FF722C;
+}
+
+/* Marges */
+.showArticles {
+    margin-top: 70px;
+}
+
+.choiceMode {
+    margin-top: 70px;
+}
+.preferenceForm {
+    margin-top: 70px;
+}
