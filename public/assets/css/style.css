@@ -2,6 +2,21 @@
 body {
     background-color: #2E3532;
     color: #DCE2E0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Style de la Navbar */
+#firstNav {
+    background-color: #2E3532;
+}
+.nav-link {
+    color: #FF722C;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-logo img {
+    width: 100px;
 }
 
 /* Titres */
@@ -20,7 +35,15 @@ h1, h2, h3, h4, h5{
 .preferenceForm {
     margin-top: 70px;
 }
+/* Justification du texte des articles - Page Articles */
+.article p {
+    text-align: justify;
+}
 
+/* Ajout d'un espace entre les articles et la photo */
+.articleText {
+    margin-top: 30px;
+}
 /* Cards */
 .card{
     border-radius: 0%;
@@ -43,3 +66,4 @@ h1, h2, h3, h4, h5{
 .thirdSubject, .secondSubject, .firstSubject{
     margin-top: 2rem;
 }
+
