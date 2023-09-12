@@ -1,5 +1,4 @@
 <?php 
-echo '<div>';
 foreach ($rss->channel->item as $item){
     // var_dump($item);
     // die;
@@ -12,23 +11,17 @@ foreach ($rss->channel->item as $item){
     $datetime = date_create($item->pubDate);
     $date = date_format($datetime, 'd M Y, H\hi');
     echo 
-    '<div class="card mt-3>
-        <h5 class="card-title">'.$titleItem.'</h5>
-        <img class="col-6" src="'.$imgItem.'" alt="'.$imgItem.'" />
+    '<div class="col-12 col-md-4 card mt-3">
+        <img class="card-img-top col-6" src="'.$imgItem.'" alt="'.$imgItem.'" />
+        <h5 class="mt-3 card-title">'.$titleItem.'</h5>
         <div class="card-body">
+            ('.$date.')
             <p>'.$descriptionItem.'</p>
-            <a href="'.$item->link.'">'.mb_convert_encoding($item->title,'UTF-8').'</a> ('.$date.')
+            <div class="buttonCard mt-5"> 
+            <a href="'.$item->link.'"class="btn btn-primary">Accèder à l\'article</a>
+            </div>
         </div>
     </div>';
 }
-echo '</div>';
-?>
 
-            <!-- <div class="card mt-3">    
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Exemple de titre</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Lire</a>
-                </div>
-            </div> -->
+?>
