@@ -8,7 +8,7 @@
                     <h5 class="card-title mb-3">Titre de l'article</h5>
                     <p class="card-text">Transféré à l’été 2022 au Real Madrid pour 80 millions d’euros, Aurélien Tchouaméni, 22 ans, est la nouvelle pépite du football français au milieu de terrain.
                         Il aura fort à faire à la Coupe du monde pour pallier les absences de Paul Pogba et NGolo Kanté.</p>
-                    <div class="button mt-5">
+                    <div class="buttonCard mt-5">
                         <a href="#" class="btn btn-primary">Accéder à l'article</a>
                     </div>
                 </div>
@@ -19,7 +19,7 @@
                     <h5 class="card-title mb-3">Titre de l'article</h5>
                     <p class="card-text">Transféré à l’été 2022 au Real Madrid pour 80 millions d’euros, Aurélien Tchouaméni, 22 ans, est la nouvelle pépite du football français au milieu de terrain.
                         Il aura fort à faire à la Coupe du monde pour pallier les absences de Paul Pogba et NGolo Kanté.</p>
-                    <div class="button mt-5">
+                    <div class="buttonCard mt-5">
                         <a href="#" class="btn btn-primary">Accéder à l'article</a>
                     </div>
                 </div>
@@ -30,7 +30,7 @@
                     <h5 class="card-title mb-3">Titre de l'article</h5>
                     <p class="card-text">Transféré à l’été 2022 au Real Madrid pour 80 millions d’euros, Aurélien Tchouaméni, 22 ans, est la nouvelle pépite du football français au milieu de terrain.
                         Il aura fort à faire à la Coupe du monde pour pallier les absences de Paul Pogba et NGolo Kanté.</p>
-                    <div class="button mt-5">
+                    <div class="buttonCard mt-5">
                         <a href="#" class="btn btn-primary">Accéder à l'article</a>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
                     <h5 class="card-title mb-3">Titre de l'article</h5>
                     <p class="card-text">Transféré à l’été 2022 au Real Madrid pour 80 millions d’euros, Aurélien Tchouaméni, 22 ans, est la nouvelle pépite du football français au milieu de terrain.
                         Il aura fort à faire à la Coupe du monde pour pallier les absences de Paul Pogba et NGolo Kanté.</p>
-                    <div class="button mt-5">
+                    <div class="buttonCard mt-5">
                         <a href="#" class="btn btn-primary">Accéder à l'article</a>
                     </div>
                 </div>
@@ -52,7 +52,7 @@
                     <h5 class="card-title mb-3">Titre de l'article</h5>
                     <p class="card-text">Transféré à l’été 2022 au Real Madrid pour 80 millions d’euros, Aurélien Tchouaméni, 22 ans, est la nouvelle pépite du football français au milieu de terrain.
                         Il aura fort à faire à la Coupe du monde pour pallier les absences de Paul Pogba et NGolo Kanté.</p>
-                    <div class="button mt-5">
+                    <div class="buttonCard mt-5">
                         <a href="#" class="btn btn-primary">Accéder à l'article</a>
                     </div>
                 </div>
@@ -63,7 +63,7 @@
                     <h5 class="card-title mb-3">Titre de l'article</h5>
                     <p class="card-text">Transféré à l’été 2022 au Real Madrid pour 80 millions d’euros, Aurélien Tchouaméni, 22 ans, est la nouvelle pépite du football français au milieu de terrain.
                         Il aura fort à faire à la Coupe du monde pour pallier les absences de Paul Pogba et NGolo Kanté.</p>
-                    <div class="button mt-5">
+                    <div class="buttonCard mt-5">
                         <a href="#" class="btn btn-primary">Accéder à l'article</a>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
                     <h5 class="card-title mb-3">Titre de l'article</h5>
                     <p class="card-text">Transféré à l’été 2022 au Real Madrid pour 80 millions d’euros, Aurélien Tchouaméni, 22 ans, est la nouvelle pépite du football français au milieu de terrain.
                         Il aura fort à faire à la Coupe du monde pour pallier les absences de Paul Pogba et NGolo Kanté.</p>
-                    <div class="button mt-5">
+                    <div class="buttonCard mt-5">
                         <a href="#" class="btn btn-primary">Accéder à l'article</a>
                     </div>
                 </div>
@@ -89,7 +89,7 @@
                     <h5 class="card-title mb-3">Titre de l'article</h5>
                     <p class="card-text">Transféré à l’été 2022 au Real Madrid pour 80 millions d’euros, Aurélien Tchouaméni, 22 ans, est la nouvelle pépite du football français au milieu de terrain.
                         Il aura fort à faire à la Coupe du monde pour pallier les absences de Paul Pogba et NGolo Kanté.</p>
-                    <div class="button mt-5">
+                    <div class="buttonCard mt-5">
                         <a href="#" class="btn btn-primary">Accéder à l'article</a>
                     </div>
                 </div>
@@ -100,7 +100,7 @@
                     <h5 class="card-title mb-3">Titre de l'article</h5>
                     <p class="card-text">Transféré à l’été 2022 au Real Madrid pour 80 millions d’euros, Aurélien Tchouaméni, 22 ans, est la nouvelle pépite du football français au milieu de terrain.
                         Il aura fort à faire à la Coupe du monde pour pallier les absences de Paul Pogba et NGolo Kanté.</p>
-                    <div class="button mt-5">
+                    <div class="buttonCard mt-5">
                         <a href="#" class="btn btn-primary">Accéder à l'article</a>
                     </div>
                 </div>
@@ -111,7 +111,7 @@
                     <h5 class="card-title mb-3">Titre de l'article</h5>
                     <p class="card-text">Transféré à l’été 2022 au Real Madrid pour 80 millions d’euros, Aurélien Tchouaméni, 22 ans, est la nouvelle pépite du football français au milieu de terrain.
                         Il aura fort à faire à la Coupe du monde pour pallier les absences de Paul Pogba et NGolo Kanté.</p>
-                    <div class="button mt-5">
+                    <div class="buttonCard mt-5">
                         <a href="#" class="btn btn-primary">Accéder à l'article</a>
                     </div>
                 </div>
@@ -122,7 +122,7 @@
                     <h5 class="card-title mb-3">Titre de l'article</h5>
                     <p class="card-text">Transféré à l’été 2022 au Real Madrid pour 80 millions d’euros, Aurélien Tchouaméni, 22 ans, est la nouvelle pépite du football français au milieu de terrain.
                         Il aura fort à faire à la Coupe du monde pour pallier les absences de Paul Pogba et NGolo Kanté.</p>
-                    <div class="button mt-5">
+                    <div class="buttonCard mt-5">
                         <a href="#" class="btn btn-primary">Accéder à l'article</a>
                     </div>
                 </div>
@@ -133,7 +133,7 @@
                     <h5 class="card-title mb-3">Titre de l'article</h5>
                     <p class="card-text">Transféré à l’été 2022 au Real Madrid pour 80 millions d’euros, Aurélien Tchouaméni, 22 ans, est la nouvelle pépite du football français au milieu de terrain.
                         Il aura fort à faire à la Coupe du monde pour pallier les absences de Paul Pogba et NGolo Kanté.</p>
-                    <div class="button mt-5">
+                    <div class="buttonCard mt-5">
                         <a href="#" class="btn btn-primary">Accéder à l'article</a>
                     </div>
                 </div>
@@ -149,7 +149,7 @@
                     <h5 class="card-title mb-3">Titre de l'article</h5>
                     <p class="card-text">Transféré à l’été 2022 au Real Madrid pour 80 millions d’euros, Aurélien Tchouaméni, 22 ans, est la nouvelle pépite du football français au milieu de terrain.
                         Il aura fort à faire à la Coupe du monde pour pallier les absences de Paul Pogba et NGolo Kanté.</p>
-                    <div class="button mt-5">
+                    <div class="buttonCard mt-5">
                         <a href="#" class="btn btn-primary">Accéder à l'article</a>
                     </div>
                 </div>
@@ -160,7 +160,7 @@
                     <h5 class="card-title mb-3">Titre de l'article</h5>
                     <p class="card-text">Transféré à l’été 2022 au Real Madrid pour 80 millions d’euros, Aurélien Tchouaméni, 22 ans, est la nouvelle pépite du football français au milieu de terrain.
                         Il aura fort à faire à la Coupe du monde pour pallier les absences de Paul Pogba et NGolo Kanté.</p>
-                    <div class="button mt-5">
+                    <div class="buttonCard mt-5">
                         <a href="#" class="btn btn-primary">Accéder à l'article</a>
                     </div>
                 </div>
@@ -171,7 +171,7 @@
                     <h5 class="card-title mb-3">Titre de l'article</h5>
                     <p class="card-text">Transféré à l’été 2022 au Real Madrid pour 80 millions d’euros, Aurélien Tchouaméni, 22 ans, est la nouvelle pépite du football français au milieu de terrain.
                         Il aura fort à faire à la Coupe du monde pour pallier les absences de Paul Pogba et NGolo Kanté.</p>
-                    <div class="button mt-5">
+                    <div class="buttonCard mt-5">
                         <a href="#" class="btn btn-primary">Accéder à l'article</a>
                     </div>
                 </div>
@@ -182,7 +182,7 @@
                     <h5 class="card-title mb-3">Titre de l'article</h5>
                     <p class="card-text">Transféré à l’été 2022 au Real Madrid pour 80 millions d’euros, Aurélien Tchouaméni, 22 ans, est la nouvelle pépite du football français au milieu de terrain.
                         Il aura fort à faire à la Coupe du monde pour pallier les absences de Paul Pogba et NGolo Kanté.</p>
-                    <div class="button mt-5">
+                    <div class="buttonCard mt-5">
                         <a href="#" class="btn btn-primary">Accéder à l'article</a>
                     </div>
                 </div>
@@ -193,7 +193,7 @@
                     <h5 class="card-title mb-3">Titre de l'article</h5>
                     <p class="card-text">Transféré à l’été 2022 au Real Madrid pour 80 millions d’euros, Aurélien Tchouaméni, 22 ans, est la nouvelle pépite du football français au milieu de terrain.
                         Il aura fort à faire à la Coupe du monde pour pallier les absences de Paul Pogba et NGolo Kanté.</p>
-                    <div class="button mt-5">
+                    <div class="buttonCard mt-5">
                         <a href="#" class="btn btn-primary">Accéder à l'article</a>
                     </div>
                 </div>
@@ -204,7 +204,7 @@
                     <h5 class="card-title mb-3">Titre de l'article</h5>
                     <p class="card-text">Transféré à l’été 2022 au Real Madrid pour 80 millions d’euros, Aurélien Tchouaméni, 22 ans, est la nouvelle pépite du football français au milieu de terrain.
                         Il aura fort à faire à la Coupe du monde pour pallier les absences de Paul Pogba et NGolo Kanté.</p>
-                    <div class="button mt-5">
+                    <div class="buttonCard mt-5">
                         <a href="#" class="btn btn-primary">Accéder à l'article</a>
                     </div>
                 </div>
