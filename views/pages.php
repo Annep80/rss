@@ -1,4 +1,4 @@
-<section class="article container-fluid text-center text-justify">
+<section class="article container-fluid text-center text-justify mt-5">
     <div class="row">
         <div class="firstSubject col-12 col-md-12">
             <p class="articleDate">12/09/2023</p>

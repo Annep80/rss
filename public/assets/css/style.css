@@ -9,6 +9,15 @@ body {
 #firstNav {
     background-color: #2E3532;
 }
+.nav-link {
+    color: #FF722C;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-logo img {
+    width: 100px;
+}
 
 /* Titres */
 h1, h2, h3 {

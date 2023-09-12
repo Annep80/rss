@@ -12,8 +12,8 @@
 
 <body>
     <nav class="navbar navbar-dark navbar-expand-md sticky-top" id="firstNav">
-        <div class="container">
-            <a class="navbar-brand" href="#"></a>
+        <div class="container p-0">
+            <a class="navbar-logo" href="/index.php"><img src="/public/assets/img/adopteunrss.png" alt="adopte un rss"></a>
             <button class="menu-hamburger navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
