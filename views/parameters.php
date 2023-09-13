@@ -5,31 +5,31 @@
             <div class="choice">
                 <h2 class="text-center mb-3">Modifier mes flux</h2>
                 <div class="form-check">
-                    <input class="form-check-input input-checkbox" type="checkbox" value="" id="football">
+                    <input class="form-check-input input-checkbox" type="checkbox" value="football" id="football">
                     <label class="form-check-label" for="football">
                         Football
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input input-checkbox" type="checkbox" value="" id="rugby">
+                    <input class="form-check-input input-checkbox" type="checkbox" value="rugby" id="rugby">
                     <label class="form-check-label" for="rugby">
                         Rugby
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input input-checkbox" type="checkbox" value="" id="handball">
+                    <input class="form-check-input input-checkbox" type="checkbox" value="handball" id="handball">
                     <label class="form-check-label" for="handball">
                         Handball
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input input-checkbox" type="checkbox" value="" id="volleyball">
+                    <input class="form-check-input input-checkbox" type="checkbox" value="volleyball" id="volleyball">
                     <label class="form-check-label" for="volleyball">
                         Volleyball
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input input-checkbox" type="checkbox" value="" id="tennis">
+                    <input class="form-check-input input-checkbox" type="checkbox" value="tennis" id="tennis">
                     <label class="form-check-label" for="tennis">
                         Tennis
                     </label>
