@@ -1,6 +1,7 @@
         <footer>
             <div>
-                <div class="footer "> Projet d'école réalisé par Sébastion Leroy, Cyril Giros et Anne Piau </div>
+                <div class="footer "> Projet d'école réalisé par Sébastion Leroy,</div> 
+                <div class="footer mt-0">Cyril Giros et Anne Piau </div>
                 <div class="footer mt-0">La manu &#169 2023</div>
             </div>
         </footer>
