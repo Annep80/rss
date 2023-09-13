@@ -1,11 +1,11 @@
-<?php 
-foreach ($rss->channel->item as $item){
+<?php
+foreach ($rss->channel->item as $item) {
     // var_dump($item);
     // die;
     $titleItem = $item->title;
     $imgItem = $item->enclosure['url'];
     $descriptionItem = $item->description;
-    $descriptionItem = preg_replace("/<img[^>]+\>/i", "", $descriptionItem); 
+    $descriptionItem = preg_replace("/<img[^>]+\>/i", "", $descriptionItem);
     // echo($imgItem); 
     // die; 
     $datetime = date_create($item->pubDate);
@@ -18,10 +18,8 @@ foreach ($rss->channel->item as $item){
             ('.$date.') 
             <p>'.$descriptionItem.'</p>
             <div class="buttonCard mt-5"> 
-            <a href="'.$item->link.'"class="btn btn-primary">Accèder à l\'article</a>
+            <a href="' . $item->link . '"class="btn btn-primary">Accèder à l\'article</a>
             </div>
         </div>
     </div>';
 }
-
-?>

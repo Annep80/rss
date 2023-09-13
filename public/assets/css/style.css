@@ -27,14 +27,13 @@ h1, h2, h3, h4, h5{
 
 /* Marges */
 .showArticles {
-    margin-top: 70px;
+    margin-top: 50px;
 }
-
 .choiceMode {
-    margin-top: 70px;
+    margin-top: 50px;
 }
 .preferenceForm {
-    margin-top: 70px;
+    margin-top: 50px;
 }
 /* Justification du texte des articles - Page Articles */
 .article p {
@@ -84,8 +83,10 @@ a{
     text-decoration: none;
 }
 
-
-
+/* Ajout du thème clair */
+.light-theme {
+    background-color: #697A74;
+}
 
 
 
