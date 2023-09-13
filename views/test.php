@@ -19,7 +19,7 @@ foreach ($rss->channel->item as $item){
             <p class="card-text">'.$descriptionItem.'</p>
             <a href="'.$item->link.'">'.mb_convert_encoding($item->title,'UTF-8').'</a> ('.$date.')
 
-    '<div class="col-12 col-md-4 card mt-3">
+    <div class="col-12 col-md-4 card mt-3">
         <img class="card-img-top col-6" src="'.$imgItem.'" alt="'.$imgItem.'" />
         <h5 class="mt-3 card-title">'.$titleItem.'</h5>
         <div class="card-body">
