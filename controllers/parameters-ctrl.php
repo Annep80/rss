@@ -20,8 +20,6 @@ if(isset($_POST['numberOfArticle'])) {
 // ========== Nettoyage Choix des Sports ========== //
 $sportChoice = filter_input(INPUT_POST, 'sportChoice', FILTER_SANITIZE_SPECIAL_CHARS, FILTER_REQUIRE_ARRAY) ?? [];
 
-
-
 // ========== Nettoyage Nombre d'Articles ========== //
 $numberOfArticle = filter_input(INPUT_POST, 'numberOfArticle', FILTER_SANITIZE_NUMBER_INT);
 if (!empty($numberOfArticle)) {
