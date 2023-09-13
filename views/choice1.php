@@ -1,5 +1,5 @@
 <?php
-foreach ($rssFoot->channel->item as $item) {
+foreach ($rss1->channel->item as $item) {
     // var_dump($item);
     // die;
     $titleItem = $item->title;
