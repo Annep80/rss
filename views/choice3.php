@@ -1,5 +1,5 @@
 <?php
-foreach ($rssRugby->channel->item as $item) {
+foreach ($rss3->channel->item as $item) {
     // var_dump($item);
     // die;
     $titleItem = $item->title;

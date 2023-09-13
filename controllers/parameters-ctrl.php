@@ -1,6 +1,6 @@
 <?php 
 // ========== Variables ========== //
-define('SPORTS', ['Football', 'Rugby', 'Handball', 'Volleyball', 'Tennis']);
+define('SPORTS', ['football', 'rugby', 'handball', 'volleyball', 'tennis']);
 define('NUMBER_OF_ARTICLE', [6, 9, 12]);
 
 // ========== Cookies ========== //
