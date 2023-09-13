@@ -18,7 +18,6 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <a href="/controllers/home-ctrl.php" class="nav-link ms-4"><img src="/public/assets/img/icons8-accueil-48.png" alt=""></a>
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link ms-4" href="/controllers/association-ctrl.php">Choix 1</a>
