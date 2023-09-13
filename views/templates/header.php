@@ -21,13 +21,13 @@
             <a href="/controllers/home-ctrl.php" class="nav-link ms-4"><img src="/public/assets/img/icons8-accueil-48.png" alt=""></a>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link ms-4" href="/controllers/association-ctrl.php">Choix 1</a>
+                        <a class="nav-link ms-4" href="/controllers/pages-ctrl.php?choice=<?=$choice1?>">Choix 1</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ms-4" href="/controllers/evenement-ctrl.php">Choix 2</a>
+                        <a class="nav-link ms-4" href="/controllers/pages-ctrl.php?choice=<?=$choice2?>">Choix 2</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ms-4" href="/controllers/connexion-ctrl.php">Choix 3</a>
+                        <a class="nav-link ms-4" href="/controllers/pages-ctrl.php?choice=<?=$choice3?>">Choix 3</a>
                     </li>
                 </ul>
                 <a href="/controllers/parameters-ctrl.php" class="nav-link ms-4">Modifier mes flux</a>
