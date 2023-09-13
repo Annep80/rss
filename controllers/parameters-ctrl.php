@@ -23,7 +23,7 @@ $sportChoice = filter_input(INPUT_POST, 'sportChoice', FILTER_SANITIZE_SPECIAL_C
 
 
 // ========== Nettoyage Nombre d'Articles ========== //
-$numberOfArticle = trim(filter_input(INPUT_POST, 'numberOfArticle', FILTER_SANITIZE_NUMBER_INT));
+$numberOfArticle = filter_input(INPUT_POST, 'numberOfArticle', FILTER_SANITIZE_NUMBER_INT);
 if (!empty($numberOfArticle)) {
     if (!in_array($numberOfArticle, NUMBER_OF_ARTICLE)) {
         $error["numberOfArticle"] = "Le nombre entré n'est pas valide";
