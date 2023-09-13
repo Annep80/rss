@@ -1,8 +1,8 @@
 <form class="preferenceForm" id="preferenceForm" action="" method="post">
     <!-- Sélection des flux de l'utilisateur -->
     <section class="fluxChoice container-fluid mt-3">
-        <div class="row">
-            <div class="choice">
+        <div class="row ">
+            <div class="choice col-12">
                 <h2 class="text-center mb-3">Modifier mes flux</h2>
                 <?php
                 foreach (SPORTS as $key => $value) {
@@ -41,14 +41,11 @@
     <section class="choiceMode container-fluid">
         <div class="row">
             <div class="selectMode">
-                <div class="form-check form-switch">
-                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                    <label class="form-check-label" for="flexSwitchCheckDefault">Mode Sombre</label>
-                </div>
+
             </div>
         </div>
     </section>
     <div class="submitBtn text-center">
-        <button id="btnSubmit" class="mt-3 col-4 col-md-1" type="submit">Valider</button>
+        <button id="btnSubmit" class="btn-parameters mt-3 col-4 col-md-1" type="submit">Valider</button>
     </div>
 </form>

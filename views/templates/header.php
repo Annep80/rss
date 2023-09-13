@@ -16,12 +16,12 @@
 <body>
     <nav class="navbar navbar-dark navbar-expand-md sticky-top" id="firstNav">
         <div class="container p-0">
-            <a class="navbar-logo" href="/index.php"><img src="/public/assets/img/adopteunrss.png" alt="adopte un rss"></a>
+            <a class="navbar-logo" href="/index.php"><img class="img-logo"src="/public/assets/img/adopteunrss.png" alt="adopte un rss"></a>
             <button class="menu-hamburger navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav mt-2">
                     <li class="nav-item">
                         <a class="nav-link ms-4" href="/controllers/association-ctrl.php">Choix 1</a>
                     </li>
@@ -32,8 +32,8 @@
                         <a class="nav-link ms-4" href="/controllers/connexion-ctrl.php">Choix 3</a>
                     </li>
                 </ul>
-                <a href="/controllers/parameters-ctrl.php" class="nav-link ms-4">Modifier mes flux</a>
-                <a href="/controllers/refer-ctrl.php" class="nav-link ms-4">test 404</a>
+                <a href="/controllers/parameters-ctrl.php" class="nav-link mt-2 ms-4">Modifier mes flux</a>
+                <a href="/controllers/refer-ctrl.php" class="nav-link mt-2 ms-4" >test 404</a>
             </div>
         </div>
     </nav>

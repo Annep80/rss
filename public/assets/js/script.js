@@ -5,6 +5,7 @@ let darkModeRadio = document.getElementById("darkMode");
 let lightModeRadio = document.getElementById("lightMode");
 let btnSubmit = document.getElementById("btnSubmit");
 
+
 // NOMBRE DE CASES
 let checkboxCount = 0;
 
@@ -31,13 +32,34 @@ checkboxes.forEach(function (checkbox) {
   });
 });
 
-// BACKGROUND
-document.addEventListener("DOMContentLoaded", function () {
-  darkModeRadio.addEventListener("change", function () {
-    document.body.classList.remove("light-theme");
-  });
+// DARK OU LIGHT MODE
+// btnSubmit.addEventListener("click", function (e) {
+//     let selectedMode = "";
+  
+//     if (darkModeRadio.checked) {
+//       selectedMode = "dark";
+//       document.body.classList.add("dark-theme");
+//       document.body.classList.remove("light-theme");
+//     } else if (lightModeRadio.checked) {
+//       selectedMode = "light";
+//       document.body.classList.remove("dark-theme");
+//       document.body.classList.add("light-theme");
+//     }
+  
+//     // On save le choix dans un localStorage
+//     localStorage.setItem("colorMode", selectedMode);
+//   });
+  
+//   document.addEventListener("DOMContentLoaded", function () {
+//     // Vérification du local Storage et adaptation du thème
+//     const colorMode = localStorage.getItem("colorMode");
+  
+//     if (colorMode === "dark") {
+//       darkModeRadio.checked = true;
+//       document.body.classList.add("dark-theme");
+//     } else if (colorMode === "light") {
+//       lightModeRadio.checked = true;
+//       document.body.classList.add("light-theme");
+//     }
+//   });
 
-  lightModeRadio.addEventListener("change", function () {
-    document.body.classList.add('light-theme');
-  });
-});
