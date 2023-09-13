@@ -128,6 +128,9 @@ a{
     border-color:#FF722C ;
     color:#2E3532;
 }
+.form-check-label{
+    text-transform: capitalize;
+}
 
 
 /* footer */
