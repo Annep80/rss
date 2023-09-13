@@ -1,8 +1,8 @@
 <form class="preferenceForm" action="" method="post">
     <!-- Sélection des flux de l'utilisateur -->
     <section class="fluxChoice container-fluid mt-3">
-        <div class="row">
-            <div class="choice">
+        <div class="row ">
+            <div class="choice col-12">
                 <h2 class="text-center mb-3">Modifier mes flux</h2>
                 <div class="form-check">
                     <input class="form-check-input input-checkbox" type="checkbox" value="football" id="football">
@@ -34,6 +34,7 @@
                         Tennis
                     </label>
                 </div>
+                <div id="checkboxHelp" class="checkboxHelp error ">Choisissez obligatoirement 3 sports</div>
             </div>
         </div>
     </section>
@@ -58,7 +59,7 @@
     <section class="choiceMode container-fluid">
         <div class="row">
             <div class="selectMode">
-                <div class="form-check">
+                <!-- <div class="form-check">
                     <input class="form-check-input" type="radio" name="colorMode"  id="darkMode" checked>
                     <label class="form-check-label" for="darkMode">
                         Mode Sombre
@@ -69,11 +70,11 @@
                     <label class="form-check-label" for="lightMode">
                         Mode Clair
                     </label>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
     <div class="submitBtn text-center">
-        <button id="btnSubmit" class="mt-3 col-4 col-md-1" type="submit">Valider</button>
+        <button id="btnSubmit" class="btn-parameters mt-3 col-4 col-md-1" type="submit">Valider</button>
     </div>
 </form>
