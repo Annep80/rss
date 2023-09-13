@@ -1,19 +1,74 @@
-<section class="article container-fluid text-center text-justify mt-5">
+<section class="container-fluid">
     <div class="row">
-        <div class="firstSubject col-12 col-md-12">
-            <p class="articleDate">12/09/2023</p>
-            <h2 class="articleTitle">Titre de l'article</h2>
-            <img class="img-fluid col-12 col-md-6" src="/public/assets/img/imgtest.jpg" alt="">
-            <p class="articleText">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Dignissimos quidem assumenda facilis id! Alias doloribus vitae labore reiciendis delectus. 
-                Labore hic reprehenderit, repellat minus laudantium voluptas voluptatibus! 
-                Mollitia, fugit eaque quidem illum earum quae amet a distinctio sed delectus quisquam 
-                reprehenderit consequatur tenetur. Voluptate eos eveniet obcaecati maxime ab, 
-                fugit ad hic sit tempore nisi vel soluta dignissimos eligendi totam a accusamus eius, 
-                libero delectus fuga? Perferendis, ipsa cum, nostrum officia molestiae sed ipsam aliquid in 
-                illo et pariatur, quia quam laborum nisi ex dolorem eveniet? Repellat earum, 
-                et quibusdam ab voluptas minus quod totam quam, voluptates fugit laboriosam voluptatibus?</p>
-                <a href=""><button class="btn mb-3">Lire l'article</button></a>
+    <div class="subject col-12 col-md-4">
+            <h2>Choix 1 </h2>
+            <div class="card mt-3">
+                <img src="/public/assets/img/clubs-foot-europeens-plus-suivis-reseaux-sociaux-min.jpeg" class="card-img-top" alt="club de foot européen">
+                <div class="card-body ">
+                    <h5 class="card-title mb-3">Titre de l'article</h5>
+                    <p class="card-text">Transféré à l’été 2022 au Real Madrid pour 80 millions d’euros, Aurélien Tchouaméni, 22 ans, est la nouvelle pépite du football français au milieu de terrain.
+                        Il aura fort à faire à la Coupe du monde pour pallier les absences de Paul Pogba et NGolo Kanté.</p>
+                    <div class="buttonCard mt-5">
+                        <a href="#" class="btn btn-primary">Accéder à l'article</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-3">
+                <img src="/public/assets/img/clubs-foot-europeens-plus-suivis-reseaux-sociaux-min.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title mb-3">Titre de l'article</h5>
+                    <p class="card-text">Transféré à l’été 2022 au Real Madrid pour 80 millions d’euros, Aurélien Tchouaméni, 22 ans, est la nouvelle pépite du football français au milieu de terrain.
+                        Il aura fort à faire à la Coupe du monde pour pallier les absences de Paul Pogba et NGolo Kanté.</p>
+                    <div class="buttonCard mt-5">
+                        <a href="#" class="btn btn-primary">Accéder à l'article</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-3">
+                <img src="/public/assets/img/clubs-foot-europeens-plus-suivis-reseaux-sociaux-min.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title mb-3">Titre de l'article</h5>
+                    <p class="card-text">Transféré à l’été 2022 au Real Madrid pour 80 millions d’euros, Aurélien Tchouaméni, 22 ans, est la nouvelle pépite du football français au milieu de terrain.
+                        Il aura fort à faire à la Coupe du monde pour pallier les absences de Paul Pogba et NGolo Kanté.</p>
+                    <div class="buttonCard mt-5">
+                        <a href="#" class="btn btn-primary">Accéder à l'article</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-3">
+                <img src="/public/assets/img/clubs-foot-europeens-plus-suivis-reseaux-sociaux-min.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title mb-3">Titre de l'article</h5>
+                    <p class="card-text">Transféré à l’été 2022 au Real Madrid pour 80 millions d’euros, Aurélien Tchouaméni, 22 ans, est la nouvelle pépite du football français au milieu de terrain.
+                        Il aura fort à faire à la Coupe du monde pour pallier les absences de Paul Pogba et NGolo Kanté.</p>
+                    <div class="buttonCard mt-5">
+                        <a href="#" class="btn btn-primary">Accéder à l'article</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-3">
+                <img src="/public/assets/img/clubs-foot-europeens-plus-suivis-reseaux-sociaux-min.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title mb-3">Titre de l'article</h5>
+                    <p class="card-text">Transféré à l’été 2022 au Real Madrid pour 80 millions d’euros, Aurélien Tchouaméni, 22 ans, est la nouvelle pépite du football français au milieu de terrain.
+                        Il aura fort à faire à la Coupe du monde pour pallier les absences de Paul Pogba et NGolo Kanté.</p>
+                    <div class="buttonCard mt-5">
+                        <a href="#" class="btn btn-primary">Accéder à l'article</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-3">
+                <img src="/public/assets/img/clubs-foot-europeens-plus-suivis-reseaux-sociaux-min.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title mb-3">Titre de l'article</h5>
+                    <p class="card-text">Transféré à l’été 2022 au Real Madrid pour 80 millions d’euros, Aurélien Tchouaméni, 22 ans, est la nouvelle pépite du football français au milieu de terrain.
+                        Il aura fort à faire à la Coupe du monde pour pallier les absences de Paul Pogba et NGolo Kanté.</p>
+                    <div class="buttonCard mt-5">
+                        <a href="#" class="btn btn-primary">Accéder à l'article</a>
+                    </div>
+                </div>
+            </div>
         </div>
+
     </div>
-</section>
+    </section>
