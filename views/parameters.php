@@ -45,11 +45,11 @@
                 <select class="form-select" aria-label="Default select example">
                     <option value="">Sélectionnez un nombre</option>
                     <?php
-                        foreach ($numberOfArticle as $key => $value) { ?>
-                            <option><?= $value ?></option>
-                        <?php
-                        }
-                        ?>
+                    foreach ($numberOfArticle as $key => $value) { ?>
+                        <option><?= $value ?></option>
+                    <?php
+                    }
+                    ?>
                 </select>
             </div>
         </div>
