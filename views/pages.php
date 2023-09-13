@@ -1,6 +1,6 @@
 <section class="container-fluid">
     <div class="row">
-    <div class="subject col-12 col-md-4">
+        <div class="subject col-12 col-md-4">
             <h2>Choix 1 </h2>
             <div class="card mt-3">
                 <img src="/public/assets/img/clubs-foot-europeens-plus-suivis-reseaux-sociaux-min.jpeg" class="card-img-top" alt="club de foot européen">
@@ -71,4 +71,4 @@
         </div>
 
     </div>
-    </section>
+</section>
