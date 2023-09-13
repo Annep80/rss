@@ -25,10 +25,10 @@
         <div class="row align-items-baseline">
             <p class="col-7 col-md-2">Nombre d'articles affichés</p>
             <div class="numberOfArticles col-5 col-md-3">
-                <select class="form-select" aria-label="Default select example" required>
+                <select class="form-select" name="numberOfArticle" id="numberOfArticle" aria-label="Default select example" required>
                     <option value="" selected disabled>Sélectionnez un nombre</option>
                     <?php
-                    foreach ($numberOfArticle as $key => $value) { ?>
+                    foreach (NUMBER_OF_ARTICLE as $key => $value) { ?>
                         <option><?= $value ?></option>
                     <?php
                     }
