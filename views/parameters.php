@@ -1,40 +1,22 @@
-<form class="preferenceForm" action="" method="post">
+<form class="preferenceForm" id="preferenceForm" action="" method="post">
     <!-- Sélection des flux de l'utilisateur -->
     <section class="fluxChoice container-fluid mt-3">
         <div class="row ">
             <div class="choice col-12">
                 <h2 class="text-center mb-3">Modifier mes flux</h2>
-                <div class="form-check">
-                    <input class="form-check-input input-checkbox" type="checkbox" value="football" id="football">
-                    <label class="form-check-label" for="football">
-                        Football
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input input-checkbox" type="checkbox" value="rugby" id="rugby">
-                    <label class="form-check-label" for="rugby">
-                        Rugby
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input input-checkbox" type="checkbox" value="handball" id="handball">
-                    <label class="form-check-label" for="handball">
-                        Handball
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input input-checkbox" type="checkbox" value="volleyball" id="volleyball">
-                    <label class="form-check-label" for="volleyball">
-                        Volleyball
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input input-checkbox" type="checkbox" value="tennis" id="tennis">
-                    <label class="form-check-label" for="tennis">
-                        Tennis
-                    </label>
-                </div>
-                <div id="checkboxHelp" class="checkboxHelp error ">Choisissez obligatoirement 3 sports</div>
+                <?php
+                foreach (SPORTS as $key => $value) {
+                ?>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="sportChoice[]" id="<?= $key ?>" value="<?= $value ?>" <?= (isset($sportChoice) && in_array($key, $sportChoice)) ? 'checked' : '' ?>>
+                        <label class="form-check-label" for="language<?= $key ?>">
+                            <?= $value ?>
+                        </label>
+                    </div>
+                <?php
+                }
+                ?>
+                <small class="form-text error"><?= $error['sportChoice'] ?? '' ?></small>
             </div>
         </div>
     </section>
@@ -43,10 +25,10 @@
         <div class="row align-items-baseline">
             <p class="col-7 col-md-2">Nombre d'articles affichés</p>
             <div class="numberOfArticles col-5 col-md-3">
-                <select class="form-select" aria-label="Default select example" required>
+                <select class="form-select" name="numberOfArticle" id="numberOfArticle" aria-label="Default select example" required>
                     <option value="" selected disabled>Sélectionnez un nombre</option>
                     <?php
-                    foreach ($numberOfArticle as $key => $value) { ?>
+                    foreach (NUMBER_OF_ARTICLE as $key => $value) { ?>
                         <option><?= $value ?></option>
                     <?php
                     }
@@ -59,18 +41,7 @@
     <section class="choiceMode container-fluid">
         <div class="row">
             <div class="selectMode">
-                <!-- <div class="form-check">
-                    <input class="form-check-input" type="radio" name="colorMode"  id="darkMode" checked>
-                    <label class="form-check-label" for="darkMode">
-                        Mode Sombre
-                    </label>
-                </div>
-                <div class="form-check">
-                <input class="form-check-input" type="radio" name="colorMode"  id="lightMode">
-                    <label class="form-check-label" for="lightMode">
-                        Mode Clair
-                    </label>
-                </div> -->
+
             </div>
         </div>
     </section>

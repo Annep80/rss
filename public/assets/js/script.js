@@ -1,4 +1,5 @@
 // DECLARATION DES VARIABLES
+let preferenceForm = document.querySelector("#preferenceForm");
 let checkboxes = document.querySelectorAll(".input-checkbox");
 let darkModeRadio = document.getElementById("darkMode");
 let lightModeRadio = document.getElementById("lightMode");
@@ -61,3 +62,4 @@ checkboxes.forEach(function (checkbox) {
 //       document.body.classList.add("light-theme");
 //     }
 //   });
+
