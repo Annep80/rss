@@ -1,4 +1,5 @@
 <?php
+$display=0;
 foreach ($rss3->channel->item as $item) {
     // var_dump($item);
     // die;
@@ -10,6 +11,8 @@ foreach ($rss3->channel->item as $item) {
     // die; 
     $datetime = date_create($item->pubDate);
     $date = date_format($datetime, 'd M Y, H\hi');
+
+    if($display < $displayChoice){
     echo 
     '<div class="card mt-3">
         <img class="card-img-top col-6" src="'.$imgItem.'" alt="'.$imgItem.'" />
@@ -22,4 +25,7 @@ foreach ($rss3->channel->item as $item) {
             </div>
         </div>
     </div>';
+    $display++;
+    
+    }
 }
