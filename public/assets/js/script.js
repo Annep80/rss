@@ -30,13 +30,13 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // ===== Light mode ===== //
-// lightModeCheckbox.addEventListener('change', function (event) {
-//   event.preventDefault();
+lightModeCheckbox.addEventListener('change', function (event) {
+  event.preventDefault();
 
-//   if (lightModeCheckbox.checked) {
-//       document.body.classList.add('light-theme');
-//   } else {
-//     document.body.classList.remove('light-theme')
-//   }
+  if (lightModeCheckbox.checked) {
+      document.body.classList.add('light-theme');
+  } else {
+    document.body.classList.remove('light-theme')
+  }
 
-// });
+});
