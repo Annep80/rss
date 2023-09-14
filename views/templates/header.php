@@ -1,5 +1,5 @@
 <?php
-if ($_SERVER['REQUEST_METHOD'] == "POST"){
+if (isset($_COOKIE['sportChoosen'])){
     $choiceArray= json_decode($_COOKIE['sportChoosen']);
     $displayChoice = json_decode($_COOKIE['numberOfArticle']);
     $choice1 = $choiceArray[0];
@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST"){
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <?php if ($_SERVER['REQUEST_METHOD'] == "POST"){?>
+            <?php if (isset($_COOKIE['sportChoosen'])){?>
                 <ul class="navbar-nav mt-2">
                     <li class="nav-item">
                         <a class="nav-link ms-4" href="/controllers/pages-ctrl.php?choice=<?=$choice1?>"><?=$choice1?></a>
