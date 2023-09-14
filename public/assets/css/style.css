@@ -129,6 +129,10 @@ a{
     text-transform: capitalize;
 }
 
+.error {
+    color: red;
+}
+
 
 /* footer */
 .footer{
