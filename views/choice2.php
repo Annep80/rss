@@ -14,7 +14,7 @@ foreach ($rss2->channel->item as $item) {
 
     if($display < $displayChoice){
     echo 
-    '<div class="card mt-3 row">
+    '<div class="card m-3 row">
         <div class="col-12">
         <img class="card-img-top " src="'.$imgItem.'" alt="'.$imgItem.'" />
         </div>
