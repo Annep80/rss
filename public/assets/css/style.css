@@ -80,15 +80,6 @@ h1, h2, h3, h4, h5{
     display: flex;
     justify-content: space-evenly;
 }
-.buttonCard{
-    /* display: flex; */
-    /* justify-content: end; */
-    /* position:absolute; */
-    /* left:-10px; */
-    /* top:700px; */
-    /* width:100%; */
-    
-}
 .btn:hover {
     color: #2E3532;
     background-color:#FF722C;
