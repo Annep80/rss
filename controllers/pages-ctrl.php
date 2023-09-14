@@ -1,5 +1,11 @@
 <?php 
-    $choice = $_GET['choice'];
+    define('SPORTS', ['football', 'rugby', 'handball', 'volley', 'tennis']);
+
+    $choice = filter_input(INPUT_GET, 'choice', FILTER_SANITIZE_SPECIAL_CHARS);
+    if(isset($choice) && !in_array($choice, SPORTS)) {
+        header('Location: error404.php');
+        die;
+    }
 
     $url = "https://rmcsport.bfmtv.com/rss/$choice/"; /* insérer ici l'adresse du flux RSS de votre choix */
     $rss = simplexml_load_file($url);

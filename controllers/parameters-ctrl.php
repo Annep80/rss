@@ -8,13 +8,6 @@ define('NUMBER_OF_ARTICLE', [6, 9, 12]);
 
 if($_SERVER["REQUEST_METHOD"] == "POST") {
     // ========== Cookies ========== //
-if(isset($_POST['sportChoice'])) {
-    $sportChoice = $_POST['sportChoice'];
-    setcookie('sportChoosen', json_encode($_POST['sportChoice']), time()+3600*24, '/');
-} else {
-    echo ' ';
-}
-
 if(isset($_POST['numberOfArticle'])) {
     $numberOfArticle = $_POST['numberOfArticle'];
     setcookie('numberOfArticle', $numberOfArticle, time()+3600*24, '/');
@@ -32,6 +25,13 @@ $sportChoice = filter_input(INPUT_POST, 'sportChoice', FILTER_SANITIZE_SPECIAL_C
 
     if (isset($_POST['sportChoice']) && count($_POST['sportChoice']) < 3) {
         $errors['sportChoice'] = '* Vous devez choisir au moins 3 sports.';
+    } else {
+        if(isset($_POST['sportChoice'])) {
+            $sportChoice = $_POST['sportChoice'];
+            setcookie('sportChoosen', json_encode($_POST['sportChoice']), time()+3600*24, '/');
+        } else {
+            echo ' ';
+        }
     }
 
 // ========== Nettoyage Nombre d'Articles ========== //
