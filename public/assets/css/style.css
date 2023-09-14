@@ -18,23 +18,29 @@ body {
 .navbar-logo img {
     width: 100px;
 }
+.img-logo{
+    margin-left:5px;
+}
+.menu-hamburger{
+margin-right: 5px;
+}
 
 /* Titres */
 h1, h2, h3, h4, h5{
     color: #FF722C !important;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 /* Marges */
 .showArticles {
-    margin-top: 70px;
+    margin-top: 50px;
 }
-
 .choiceMode {
-    margin-top: 70px;
+    margin-top: 50px;
 }
 .preferenceForm {
-    margin-top: 70px;
+    margin-top: 50px;
 }
 /* Justification du texte des articles - Page Articles */
 .article p {
@@ -45,18 +51,24 @@ h1, h2, h3, h4, h5{
 .articleText {
     margin-top: 30px;
 }
-/* Cards */
+/* style des cards */
 .card{
     border-radius: 0%;
     background-color: #697A74;
+    min-height: 850px;
 }
+
 
 .card-title {
     color: #FF722C !important;
+    margin-left: 15px;
 }
 
 .card-text {
     text-align: justify;
+}
+.card-img-top{
+    border-radius: inherit;
 }
 
 .btn{
@@ -69,10 +81,19 @@ h1, h2, h3, h4, h5{
     justify-content: space-evenly;
 }
 .buttonCard{
-    display: flex;
-    justify-content: end;
+    /* display: flex; */
+    /* justify-content: end; */
+    /* position:absolute; */
+    /* left:-10px; */
+    /* top:700px; */
+    /* width:100%; */
+    
 }
-
+.btn:hover {
+    color: #2E3532;
+    background-color:#FF722C;
+    border-color: #FF722C;
+}
 .thirdSubject, .secondSubject, .firstSubject{
     margin-top: 2rem;
 }
@@ -84,15 +105,10 @@ a{
     text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
-
+/* Ajout du thème clair */
+.light-theme {
+    background-color: #697A74;
+}
 
 /* Style du bouton - Pages */
 .article a {
@@ -100,4 +116,27 @@ a{
 }
 .article a button {
     width: 200px;
+}
+
+/* style bouton et page paramètres */
+.btn-parameters{
+    border-radius: 0%;
+    background-color: #FF722C;
+    border-color:#FF722C ;
+    color:#2E3532;
+}
+.form-check-label{
+    text-transform: capitalize;
+}
+
+.error {
+    color: red;
+}
+
+
+/* footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
 }

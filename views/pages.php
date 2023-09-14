@@ -1,74 +1,48 @@
 <section class="container-fluid">
-    <div class="row">
-        <div class="subject col-12 col-md-4">
-            <h2>Choix 1 </h2>
-            <div class="card mt-3">
-                <img src="/public/assets/img/clubs-foot-europeens-plus-suivis-reseaux-sociaux-min.jpeg" class="card-img-top" alt="club de foot européen">
-                <div class="card-body ">
-                    <h5 class="card-title mb-3">Titre de l'article</h5>
-                    <p class="card-text">Transféré à l’été 2022 au Real Madrid pour 80 millions d’euros, Aurélien Tchouaméni, 22 ans, est la nouvelle pépite du football français au milieu de terrain.
-                        Il aura fort à faire à la Coupe du monde pour pallier les absences de Paul Pogba et NGolo Kanté.</p>
-                    <div class="buttonCard mt-5">
-                        <a href="#" class="btn btn-primary">Accéder à l'article</a>
-                    </div>
-                </div>
-            </div>
-            <div class="card mt-3">
-                <img src="/public/assets/img/clubs-foot-europeens-plus-suivis-reseaux-sociaux-min.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title mb-3">Titre de l'article</h5>
-                    <p class="card-text">Transféré à l’été 2022 au Real Madrid pour 80 millions d’euros, Aurélien Tchouaméni, 22 ans, est la nouvelle pépite du football français au milieu de terrain.
-                        Il aura fort à faire à la Coupe du monde pour pallier les absences de Paul Pogba et NGolo Kanté.</p>
-                    <div class="buttonCard mt-5">
-                        <a href="#" class="btn btn-primary">Accéder à l'article</a>
-                    </div>
-                </div>
-            </div>
-            <div class="card mt-3">
-                <img src="/public/assets/img/clubs-foot-europeens-plus-suivis-reseaux-sociaux-min.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title mb-3">Titre de l'article</h5>
-                    <p class="card-text">Transféré à l’été 2022 au Real Madrid pour 80 millions d’euros, Aurélien Tchouaméni, 22 ans, est la nouvelle pépite du football français au milieu de terrain.
-                        Il aura fort à faire à la Coupe du monde pour pallier les absences de Paul Pogba et NGolo Kanté.</p>
-                    <div class="buttonCard mt-5">
-                        <a href="#" class="btn btn-primary">Accéder à l'article</a>
-                    </div>
-                </div>
-            </div>
-            <div class="card mt-3">
-                <img src="/public/assets/img/clubs-foot-europeens-plus-suivis-reseaux-sociaux-min.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title mb-3">Titre de l'article</h5>
-                    <p class="card-text">Transféré à l’été 2022 au Real Madrid pour 80 millions d’euros, Aurélien Tchouaméni, 22 ans, est la nouvelle pépite du football français au milieu de terrain.
-                        Il aura fort à faire à la Coupe du monde pour pallier les absences de Paul Pogba et NGolo Kanté.</p>
-                    <div class="buttonCard mt-5">
-                        <a href="#" class="btn btn-primary">Accéder à l'article</a>
-                    </div>
-                </div>
-            </div>
-            <div class="card mt-3">
-                <img src="/public/assets/img/clubs-foot-europeens-plus-suivis-reseaux-sociaux-min.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title mb-3">Titre de l'article</h5>
-                    <p class="card-text">Transféré à l’été 2022 au Real Madrid pour 80 millions d’euros, Aurélien Tchouaméni, 22 ans, est la nouvelle pépite du football français au milieu de terrain.
-                        Il aura fort à faire à la Coupe du monde pour pallier les absences de Paul Pogba et NGolo Kanté.</p>
-                    <div class="buttonCard mt-5">
-                        <a href="#" class="btn btn-primary">Accéder à l'article</a>
-                    </div>
-                </div>
-            </div>
-            <div class="card mt-3">
-                <img src="/public/assets/img/clubs-foot-europeens-plus-suivis-reseaux-sociaux-min.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title mb-3">Titre de l'article</h5>
-                    <p class="card-text">Transféré à l’été 2022 au Real Madrid pour 80 millions d’euros, Aurélien Tchouaméni, 22 ans, est la nouvelle pépite du football français au milieu de terrain.
-                        Il aura fort à faire à la Coupe du monde pour pallier les absences de Paul Pogba et NGolo Kanté.</p>
-                    <div class="buttonCard mt-5">
-                        <a href="#" class="btn btn-primary">Accéder à l'article</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="row justify-content-center">
+        <div class="subject col-12 col-md-8">
+            <h2 class="text-center"><?=$choice?></h2>
+                <?php
+                $display=0;
+                foreach ($rss->channel->item as $item) {
+                    // var_dump($item);
+                    // die;
+                    $titleItem = $item->title;
+                    $imgItem = $item->enclosure['url'];
+                    $descriptionItem = $item->description;
+                    $descriptionItem = preg_replace("/<img[^>]+\>/i", "", $descriptionItem);
+                    // echo($imgItem); 
+                    // die; 
+                    $datetime = date_create($item->pubDate);
+                    $date = date_format($datetime, 'd M Y, H\hi');
 
+                    if($display < $displayChoice){
+                    echo    
+                    '<div class="card m-3 row">
+                        <div class="col-12 p-0">
+                        <img class="card-img-top" src="'.$imgItem.'" alt="'.$imgItem.'" />
+                        </div>
+                        <div class="col-12">
+                        <h5 class="card-title mb-5 mt-4">'.$titleItem.'</h5>
+                        </div>
+                        <div class="card-body col-12">
+                            <div class="row justify-content-end">
+                                <div class="col-12">
+                                    <p>('.$date.')</p>
+                                </div>
+                                <div class="col-12"> 
+                                    <p>'.$descriptionItem.'</p>
+                                </div>
+                                <div class="buttonCard mt-5 col-12 d-flex justify-content-end"> 
+                                    <a href="' . $item->link . '"class="btn btn-primary" target="blank">Accèder à l\'article</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>';
+                    $display++;
+                    }
+                }
+                ?>
+        </div>
     </div>
 </section>
