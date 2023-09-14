@@ -33,6 +33,8 @@
                     <?php
                     }
                     ?>
+
+                    <small class="form-text error"><?= $error['numberOfArticle'] ?? '' ?></small>
                 </select>
             </div>
         </div>

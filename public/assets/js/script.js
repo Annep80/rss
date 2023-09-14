@@ -1,6 +1,6 @@
 // DECLARATION DES VARIABLES
 let preferenceForm = document.querySelector("#preferenceForm");
-let checkboxes = document.querySelectorAll(".input-checkbox");
+let checkboxes = document.querySelectorAll(".form-check");
 let darkModeRadio = document.getElementById("darkMode");
 let lightModeRadio = document.getElementById("lightMode");
 let btnSubmit = document.getElementById("btnSubmit");
