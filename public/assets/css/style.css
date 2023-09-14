@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5{
 .card{
     border-radius: 0%;
     background-color: #697A74;
-    min-height: 749px;
+    min-height: 850px;
 }
 
 
@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5{
     justify-content: end;
     position:absolute;
     left:-10px;
-    top:650px;
+    top:700px;
     width:100%;
     
 }
@@ -110,10 +110,6 @@ a{
     background-color: #697A74;
 }
 
-
-
-
-
 /* Style du bouton - Pages */
 .article a {
     text-align: -webkit-center;
@@ -128,6 +124,9 @@ a{
     background-color: #FF722C;
     border-color:#FF722C ;
     color:#2E3532;
+}
+.form-check-label{
+    text-transform: capitalize;
 }
 
 

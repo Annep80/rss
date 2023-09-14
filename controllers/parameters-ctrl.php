@@ -1,6 +1,9 @@
 <?php 
 // ========== Variables ========== //
-define('SPORTS', ['football', 'rugby', 'handball', 'volleyball', 'tennis']);
+$errors = array();
+
+// ========== Constantes ========== //
+define('SPORTS', ['football', 'rugby', 'handball', 'volley', 'tennis']);
 define('NUMBER_OF_ARTICLE', [6, 9, 12]);
 
 // ========== Cookies ========== //
@@ -19,14 +22,17 @@ if(isset($_POST['numberOfArticle'])) {
 }
 // ========== Nettoyage Choix des Sports ========== //
 $sportChoice = filter_input(INPUT_POST, 'sportChoice', FILTER_SANITIZE_SPECIAL_CHARS, FILTER_REQUIRE_ARRAY) ?? [];
-
-
+    foreach ($sportChoice as $key => $value) {
+        if (array_key_exists($value, SPORTS) == false) {
+            $errors['sportChoice'] = 'Veuillez définir correctement les sports que vous avez choisi.';
+        }
+    }
 
 // ========== Nettoyage Nombre d'Articles ========== //
-$numberOfArticle = trim(filter_input(INPUT_POST, 'numberOfArticle', FILTER_SANITIZE_NUMBER_INT));
+$numberOfArticle = filter_input(INPUT_POST, 'numberOfArticle', FILTER_SANITIZE_NUMBER_INT);
 if (!empty($numberOfArticle)) {
     if (!in_array($numberOfArticle, NUMBER_OF_ARTICLE)) {
-        $error["numberOfArticle"] = "Le nombre entré n'est pas valide";
+        $errors["numberOfArticle"] = "Le nombre entré n'est pas valide";
     }
 }
 // ========== Lien des fichiers ========== //
