@@ -24,7 +24,7 @@ if(isset($_POST['numberOfArticle'])) {
 // ========== Nettoyage Choix des Sports ========== //
 $sportChoice = filter_input(INPUT_POST, 'sportChoice', FILTER_SANITIZE_SPECIAL_CHARS, FILTER_REQUIRE_ARRAY) ?? [];
     foreach ($sportChoice as $key => $value) {
-        if (array_key_exists($value, SPORTS) == false) {
+        if (array_key_exists($key, SPORTS) == false) {
             $errors['sportChoice'] = 'Veuillez définir correctement les sports que vous avez choisi.';
         }
     }
