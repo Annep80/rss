@@ -1,9 +1,11 @@
 <?php
+if ($_SERVER['REQUEST_METHOD'] == "POST"){
     $choiceArray= json_decode($_COOKIE['sportChoosen']);
     $displayChoice = json_decode($_COOKIE['numberOfArticle']);
     $choice1 = $choiceArray[0];
     $choice2 = $choiceArray[1];
     $choice3 = $choiceArray[2];
+}
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -25,6 +27,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <?php if ($_SERVER['REQUEST_METHOD'] == "POST"){?>
                 <ul class="navbar-nav mt-2">
                     <li class="nav-item">
                         <a class="nav-link ms-4" href="/controllers/pages-ctrl.php?choice=<?=$choice1?>"><?=$choice1?></a>
@@ -36,6 +39,7 @@
                         <a class="nav-link ms-4" href="/controllers/pages-ctrl.php?choice=<?=$choice3?>"><?=$choice3?></a>
                     </li>
                 </ul>
+                <?php } ?>
                 <a href="/controllers/parameters-ctrl.php" class="nav-link mt-2 ms-4">Modifier mes flux</a>
                 <a href="/controllers/refer-ctrl.php" class="nav-link mt-2 ms-4" >test 404</a>
             </div>
