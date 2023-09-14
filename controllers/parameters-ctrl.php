@@ -29,8 +29,7 @@ $sportChoice = filter_input(INPUT_POST, 'sportChoice', FILTER_SANITIZE_SPECIAL_C
         if(isset($_POST['sportChoice'])) {
             $sportChoice = $_POST['sportChoice'];
             setcookie('sportChoosen', json_encode($_POST['sportChoice']), time()+3600*24, '/');
-        } else {
-            echo ' ';
+            header('location: /controllers/home-ctrl.php');
         }
     }
 
