@@ -1,6 +1,6 @@
 <?php
     $choiceArray= json_decode($_COOKIE['sportChoosen']);
-
+    $displayChoice = json_decode($_COOKIE['numberOfArticle']);
     $choice1 = $choiceArray[0];
     $choice2 = $choiceArray[1];
     $choice3 = $choiceArray[2];
