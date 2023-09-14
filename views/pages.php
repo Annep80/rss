@@ -19,8 +19,8 @@
                     if($display < $displayChoice){
                     echo    
                     '<div class="card m-3 row">
-                        <div class="col-12">
-                        <img class="card-img-top " src="'.$imgItem.'" alt="'.$imgItem.'" />
+                        <div class="col-12 p-0">
+                        <img class="card-img-top" src="'.$imgItem.'" alt="'.$imgItem.'" />
                         </div>
                         <div class="col-12">
                         <h5 class="card-title mb-5 mt-4">'.$titleItem.'</h5>
