@@ -29,6 +29,7 @@ margin-right: 5px;
 h1, h2, h3, h4, h5{
     color: #FF722C !important;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 /* Marges */
