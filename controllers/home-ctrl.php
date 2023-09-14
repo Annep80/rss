@@ -1,4 +1,8 @@
 <?php
+if (empty($_COOKIE['sportChoosen'])) {
+    header('location: /controllers/parameters-ctrl.php');
+die;
+}
 $choiceArray= json_decode($_COOKIE['sportChoosen']);
 
 $choice1 = $choiceArray[0];
