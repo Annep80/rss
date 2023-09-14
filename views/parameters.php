@@ -43,10 +43,14 @@
     <section class="choiceMode container-fluid">
         <div class="row">
             <div class="selectMode">
-
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" name="lightMode" id="lightMode">
+                    <label class="form-check-label" for="lightMode">Thème Clair</label>
+                </div>
             </div>
         </div>
     </section>
+
     <div class="submitBtn text-center">
         <button id="btnSubmit" class="btn-parameters mt-3 col-4 col-md-1" type="submit">Valider</button>
     </div>
