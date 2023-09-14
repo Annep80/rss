@@ -16,7 +16,7 @@
                 <?php
                 }
                 ?>
-                <small class="form-text error"><?= $error['sportChoice'] ?? '' ?></small>
+                <small class="form-text error"><?= $errors['sportChoice'] ?? '' ?></small>
             </div>
         </div>
     </section>
@@ -34,7 +34,7 @@
                     }
                     ?>
 
-                    <small class="form-text error"><?= $error['numberOfArticle'] ?? '' ?></small>
+                    <small class="form-text error"><?= $errors['numberOfArticle'] ?? '' ?></small>
                 </select>
             </div>
         </div>
