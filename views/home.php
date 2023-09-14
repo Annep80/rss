@@ -6,13 +6,13 @@
             include __DIR__ . '/choice1.php';
             ?>
         </div>
-        <div class="secondSubject  col-12 col-lg-4">
+        <div class="secondSubject  col-12 col-md-4">
             <h2><?=$choice2?></h2>
             <?php
             include __DIR__ . '/choice2.php';
             ?>
         </div>
-        <div class="thirdSubject col-12 col-lg-4 ">
+        <div class="thirdSubject col-12 col-md-4 ">
             <h2><?=$choice3?></h2>
             <?php
             include __DIR__ . '/choice3.php';
