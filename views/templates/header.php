@@ -1,4 +1,5 @@
 <?php
+
 if (isset($_COOKIE['sportChoosen'])){
     $choiceArray= json_decode($_COOKIE['sportChoosen']);
     $displayChoice = json_decode($_COOKIE['numberOfArticle']);
