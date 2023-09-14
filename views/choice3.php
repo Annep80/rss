@@ -15,7 +15,7 @@ foreach ($rss3->channel->item as $item) {
     if($display < $displayChoice){
     echo 
     '<div class="card mt-3 row">
-        <div class="col-12">
+        <div class="col-12 ">
         <img class="card-img-top " src="'.$imgItem.'" alt="'.$imgItem.'" />
         </div>
         <div class="col-12">
